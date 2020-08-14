@@ -1,8 +1,10 @@
 # gomicrosvc-k8s
 
 ######################################################
+
 docker build -t gomicrosvc-k8s:latest .
 docker run -it -p 8080:8080 gomicrosvc-k8s:latest
+
 ######################################################
 
 ##### 1. 
